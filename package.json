@@ -4,7 +4,8 @@
   "description": "my first mern app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/Flop88/shortlink/issues"
   },
-  "homepage": "https://github.com/Flop88/shortlink#readme"
+  "homepage": "https://github.com/Flop88/shortlink#readme",
+  "dependencies": {
+    "config": "^3.3.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
 }
