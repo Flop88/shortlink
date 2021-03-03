@@ -1,0 +1,22 @@
+{
+  "name": "shortlinker",
+  "version": "1.0.0",
+  "description": "my first mern app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flop88/shortlink.git"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Maksim Likhachev <wwwqwwwqwwwqwwwq@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flop88/shortlink/issues"
+  },
+  "homepage": "https://github.com/Flop88/shortlink#readme"
+}
